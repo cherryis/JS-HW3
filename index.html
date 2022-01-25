@@ -1,0 +1,39 @@
+<!-- PROG209 HW3 Soon Ryu -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-HW2</title>
+    <link rel="stylesheet" href="HW3styles.css">
+</head>
+
+<body>
+    <h1>HW3- Sorting Movie information by ranking</h1> 
+    <h2>Please enter movie information.</h2>
+    <!-- <fieldset name="movieInput" action="/action_page.php" onsubmit="return validateInput()" method="post" required> -->
+    <fieldset class="myForm">
+        <legend>Movie Information</legend>
+
+        <label for="title">Movie Title:</label>
+        <input type="text" id="title" name="title" >
+
+        <label for="year">Released Year:</label>
+        <input type="month" id="year" name="year" >
+
+        <label for="rate">Rating:between 1 ~ 5</label>
+        <input type="number" id="rate" name="rate" min="1" max="5">
+
+        <button class="button1" onclick="addMovie()">Add Movie</button>
+    </fieldset>
+
+    <fieldset class="myForm">
+        <button class="button1" onclick="showMovies()">Show Movies</button>
+        <legend>All the movie titles</legend>
+        <div id="container"></div>
+    </fieldset>
+
+<script src="HW3.js"></script>
+</body>
+</html>

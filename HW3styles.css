@@ -1,0 +1,43 @@
+.myForm {
+    background-color: rgb(105, 175, 180);
+    border: 1px solid rgb(114, 20, 177);
+    /*float:left; */
+    margin: 1% 5% 1% 5%;
+  }
+
+  legend {
+    background-color: rgb(16, 78, 160);
+    color: white;
+    padding: 3px 0px;
+    text-indent: 20px;
+    width: 50%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  label {
+    clear: left;
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    margin: 7px 4% 7px 5px;
+    width: 30%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  }
+
+  input {
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    margin: 7px 0px;
+    width: 50%;
+  }
+
+  .button1{
+      width: 100px;
+      float:right;
+      margin: 20px 20px 10px 10px;
+      font-family: cursive;
+      font-weight: bold;
+      background-color:rgb(43, 163, 179);
+  }
